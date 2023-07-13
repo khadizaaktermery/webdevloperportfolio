@@ -65,7 +65,7 @@ nav li {
   margin-top: 5px;
   margin-bottom: 20px;
 }
-.banner-contene {
+.banner-content {
   max-width: 500px;
 }
 .about {
@@ -84,4 +84,16 @@ nav li {
   color: #575757;
   text-align: center;
   font-size: 18px;
+}
+/* main section */
+main {
+  max-width: 1140px;
+  margin: 0 auto px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
 }
