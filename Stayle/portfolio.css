@@ -97,3 +97,14 @@ main {
 .about-info {
   text-align: center;
 }
+/* what i do sec */
+
+#what-i-do-section {
+  padding: 30px 3150px;
+}
+.skills-container {
+  display: flex;
+}
+.skills {
+  padding: 30px;
+}
