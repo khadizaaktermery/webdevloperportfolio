@@ -144,3 +144,10 @@ main section {
   text-align: center;
   margin-top: 50px;
 }
+/* footer sec */
+footer {
+  display: flex;
+  color: #160a0c;
+  padding: 130px 230px;
+  margin-top: 100px;
+}
