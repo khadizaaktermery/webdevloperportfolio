@@ -1,9 +1,10 @@
-/*common shared stayle  */
+/*common header style  */
 header {
   background-color: #fff8f3;
-  background-image: url("../images/header_bg.png");
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top left;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -13,7 +14,6 @@ body {
 }
 .btn-primary {
   background-color: #fd6e0a;
-
   border-radius: 5px;
   font-size: 20px;
   font-weight: 700;
@@ -136,7 +136,7 @@ main section {
 .resume-container hr {
   margin: 30px;
 }
-.resume-item-discription,
+
 .resume-item-institute {
   color: #575757;
 }
@@ -147,7 +147,7 @@ main section {
 /* footer sec */
 footer {
   display: flex;
-  color: #160a0c;
+  color: #575757;
   padding: 130px 230px;
   margin-top: 100px;
 }
